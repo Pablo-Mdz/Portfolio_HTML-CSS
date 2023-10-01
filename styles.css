@@ -1,0 +1,764 @@
+.portfolio-template,
+.portfolio-template * {
+  box-sizing: border-box;
+}
+.portfolio-template {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1280px;
+  position: relative;
+}
+.navigation {
+  background: #ffffff;
+  padding: 24px 42px 24px 42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--subtitle, 600 20px/30px "Epilogue", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.about {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.work {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header-section {
+  background: #ffffff;
+  padding: 42px 24px 42px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 68px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  max-width: 620px;
+  position: relative;
+}
+.title-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.branding-image-making {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--subtitle, 600 20px/30px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.visual-designer {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--h-1, 600 68px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-anima-app-com {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.button {
+  background: #2d2d2d;
+  padding: 24px 64px 24px 64px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact2 {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font: 600 20px/30px "Epilogue", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-image-1 {
+  flex: 1;
+  height: 360px;
+  min-width: 320px;
+  max-width: 480px;
+  position: relative;
+  border-radius: 15%;
+}
+.logo-bar {
+  background: #ffffff;
+  padding: 42px 68px 42px 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-5334 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.image-1-traced {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.image-5-traced {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.image-2-traced {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.image-7-traced {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.skills-section {
+  background: var(--white, #ffffff);
+  padding: 42px 24px 42px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.cards-section {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.skills-card {
+  background: #ffffff;
+  padding: 64px 42px 64px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.skills-card-icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.title-description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  color: var(--black, #2d2d2d);
+  text-align: center;
+  font: var(--h-3, 600 27px/42px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+  height: 42px;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-anima-app-com2 {
+  color: var(--black, #2d2d2d);
+  text-align: center;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.skills-card-icon2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.skills-card-icon3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.gallery-section {
+  background: var(--white, #ffffff);
+  padding: 42px 24px 42px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.latest-work {
+  color: var(--black, #2d2d2d);
+  text-align: center;
+  font: var(--h-2, 600 32px/42px "Epilogue", sans-serif);
+  position: relative;
+}
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.image {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 330px;
+  position: relative;
+}
+.title-description2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.project-title {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--subtitle, 600 20px/30px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.ui-art-drection {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.component-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.component-10 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.component-11 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.component-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.component-13 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.testimonial-section {
+  background: var(--white, #ffffff);
+  padding: 42px 24px 42px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.testimonial {
+  color: var(--black, #2d2d2d);
+  text-align: center;
+  font: var(--h-2, 600 32px/42px "Epilogue", sans-serif);
+  position: relative;
+}
+.testimonial-card {
+  background: #f3f3f3;
+  padding: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-anima-app-com3 {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--subtitle, 600 20px/30px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.client-image-info {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.client-image {
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.client-info-stars {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.star {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.name-company {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.gemma-nolen {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--subtitle, 600 20px/30px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.google {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.star11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star15 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star17 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star19 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star21 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star23 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star25 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star27 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star29 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star31 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star33 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star35 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star37 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star39 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star41 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star43 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star45 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star47 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star49 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star51 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star53 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star55 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star57 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star59 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.contact-section {
+  background: #ffffff;
+  padding: 42px 24px 86px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.lets-work-together {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--h-2, 600 32px/42px "Epilogue", sans-serif);
+  position: relative;
+  width: 626px;
+}
+.contact-section-content {
+  display: flex;
+  flex-direction: row;
+  gap: 142px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.title-description3 {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-anima-app-com-this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-anima-app-com {
+  color: #2d2d2d;
+  text-align: left;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.discord {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.facebook {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.dribbble {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.nstagram {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.behance {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  position: relative;
+}
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.input-field {
+  background: #f3f3f3;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  min-width: 320px;
+  max-width: 520px;
+  position: relative;
+  overflow: hidden;
+}
+.name {
+  color: #2d2d2d;
+  text-align: left;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  flex: 1;
+}
