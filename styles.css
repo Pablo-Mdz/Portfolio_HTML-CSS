@@ -156,7 +156,7 @@
   min-width: 320px;
   max-width: 480px;
   position: relative;
-  border-radius: 15%;
+  border-radius: 20px;
 }
 .logo-bar {
   background: #ffffff;
